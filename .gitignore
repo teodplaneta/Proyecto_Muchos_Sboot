@@ -1,0 +1,45 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+/target/
+/build/
+.gradle/
+
+### Eclipse / STS ###
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Archivos de proyecto Eclipse (opcional)
+# Si trabajas en equipo, a veces es mejor no subirlos
+.project
+.classpath
+.factorypath
+
+### IntelliJ IDEA (por si algún colega lo usa) ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Spring Boot ###
+*.lst
+/HELP.md
+active.properties
+
+### Logs y OS ###
+*.log
+.DS_Store
+Thumbs.db
