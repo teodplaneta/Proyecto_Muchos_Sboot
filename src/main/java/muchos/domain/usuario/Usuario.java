@@ -1,4 +1,4 @@
-package muchos.modelo.entidades;
+package muchos.domain.usuario;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +21,8 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import muchos.domain.perfil.Perfil;
+import muchos.domain.producto.Producto;
 
 @AllArgsConstructor @NoArgsConstructor 
 @Getter @Setter @EqualsAndHashCode(of = "idUsuario") 

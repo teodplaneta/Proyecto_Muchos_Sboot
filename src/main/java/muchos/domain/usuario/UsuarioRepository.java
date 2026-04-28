@@ -1,9 +1,6 @@
-package muchos.repositorios;
+package muchos.domain.usuario;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-
-import muchos.modelo.entidades.Usuario;
 
 public interface UsuarioRepository  extends JpaRepository<Usuario, Integer>{
 

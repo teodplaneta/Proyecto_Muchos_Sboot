@@ -1,4 +1,4 @@
-package muchos.restcontroller;
+package muchos.domain.usuario;
 
 import java.util.List;
 
@@ -8,10 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import muchos.modelo.entidades.Producto;
-import muchos.modelo.entidades.Usuario;
-import muchos.repositorios.ProductoRepository;
-import muchos.repositorios.UsuarioRepository;
+import muchos.domain.producto.Producto;
+import muchos.domain.producto.ProductoRepository;
 
 @RestController
 @CrossOrigin(origins = "*")

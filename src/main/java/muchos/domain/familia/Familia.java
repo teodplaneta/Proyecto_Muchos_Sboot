@@ -1,4 +1,4 @@
-package muchos.modelo.entidades;
+package muchos.domain.familia;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

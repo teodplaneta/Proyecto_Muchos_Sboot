@@ -1,4 +1,4 @@
-package muchos.modelo.entidades;
+package muchos.domain.producto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -15,6 +15,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import muchos.domain.familia.Familia;
 
 @AllArgsConstructor @NoArgsConstructor 
 @Getter @Setter @EqualsAndHashCode(of = "codigoBarras")  

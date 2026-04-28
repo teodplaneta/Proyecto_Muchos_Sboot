@@ -1,8 +1,6 @@
-package muchos.repositorios;
+package muchos.domain.familia;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import muchos.modelo.entidades.Familia;
 
 public interface FamiliaRepository extends JpaRepository<Familia, Integer>{
 
